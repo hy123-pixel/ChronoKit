@@ -18,6 +18,7 @@
 		76208AFFD007B1CE0A334344 /* ExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CD02F1F940C3E3585C0620 /* ExampleApp.swift */; };
 		A4EE5484D2D7F9AD22FE6097 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9F691F50437DD611370ACD /* Foundation.framework */; };
 		D60D6D1D25B4AB3DF1885CC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E8781CFCE08942B29896FA5 /* Assets.xcassets */; };
+		E5F2D3A12B3C4D5E6F708192 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5F2D3A02B3C4D5E6F708192 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		D74D5A56BDB38F291615EED7 /* BusinessCalendar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BusinessCalendar.swift; sourceTree = "<group>"; };
 		DA9F691F50437DD611370ACD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		EC9A571D1B36F8EB1A7FA155 /* Formatting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Formatting.swift; sourceTree = "<group>"; };
+		E5F2D3A02B3C4D5E6F708192 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 			children = (
 				83CD02F1F940C3E3585C0620 /* ExampleApp.swift */,
 				9DADCB1FEC66AF1710E6DE85 /* ContentView.swift */,
+				E5F2D3A02B3C4D5E6F708192 /* LaunchScreen.storyboard */,
 				3E8781CFCE08942B29896FA5 /* Assets.xcassets */,
 			);
 			path = ExampleApp;
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D60D6D1D25B4AB3DF1885CC5 /* Assets.xcassets in Resources */,
+				E5F2D3A12B3C4D5E6F708192 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +288,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
@@ -372,7 +376,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
