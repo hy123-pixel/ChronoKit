@@ -17,11 +17,13 @@
 		7378207692D63BB3396AB121 /* Formatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9A571D1B36F8EB1A7FA155 /* Formatting.swift */; };
 		76208AFFD007B1CE0A334344 /* ExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CD02F1F940C3E3585C0620 /* ExampleApp.swift */; };
 		A4EE5484D2D7F9AD22FE6097 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9F691F50437DD611370ACD /* Foundation.framework */; };
+		D60D6D1D25B4AB3DF1885CC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E8781CFCE08942B29896FA5 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2594CF5D0CBAD9452D529293 /* ExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33DE5195BDA321078AEAD8D4 /* TimeManagerTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TimeManagerTests.swift; sourceTree = "<group>"; };
+		3E8781CFCE08942B29896FA5 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49167DDB596410204B819A39 /* Comparison.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Comparison.swift; sourceTree = "<group>"; };
 		68B36F14E347AACD85BCDA4B /* CalendarTools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CalendarTools.swift; sourceTree = "<group>"; };
 		83CD02F1F940C3E3585C0620 /* ExampleApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ExampleApp.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 			children = (
 				83CD02F1F940C3E3585C0620 /* ExampleApp.swift */,
 				9DADCB1FEC66AF1710E6DE85 /* ContentView.swift */,
+				3E8781CFCE08942B29896FA5 /* Assets.xcassets */,
 			);
 			path = ExampleApp;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D60D6D1D25B4AB3DF1885CC5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

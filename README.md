@@ -1,5 +1,7 @@
 # ChronoKit
 
+![ChronoKit Banner](Docs/banner.svg)
+
 `ChronoKit` 是一个面向 Swift 开发者的时间处理工具库，提供时间格式化、时间戳转换、日期边界计算、时间比较、时区换算、ISO8601、工作日/节假日规则等能力。
 
 仓库同时提供两种使用方式：
